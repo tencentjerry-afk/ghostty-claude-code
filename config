@@ -47,12 +47,11 @@ clipboard-paste-protection = false
 shell-integration = zsh
 shell-integration-features = cursor,sudo,title
 
-# --- Quick Terminal (Hotkey to summon Ghostty instantly) ---
-# Press Option+Space anywhere to toggle a drop-down terminal
+# --- Quick Terminal ---
 quick-terminal-position = top
 quick-terminal-screen = main
 quick-terminal-animation-duration = 0.15
-keybind = global:alt+space=toggle_quick_terminal
+keybind = global:alt+space=unbind
 
 # --- Keybindings (Claude Code friendly) ---
 # Split management
